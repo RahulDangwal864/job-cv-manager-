@@ -8,8 +8,8 @@ To get started with the Job CV Manager, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/divyanshu-bhandari/job-cv-manager.git
-    cd job-cv-manager
+    git clone https://github.com/RahulDangwal864/job-cv-manager-.git
+    cd job-cv-manager-
     ```
 
 2. **Install dependencies:**
