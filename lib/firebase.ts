@@ -2,15 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API,
-  authDomain: "job-cv-manager-8b3b1.firebaseapp.com",
-  projectId: "job-cv-manager-8b3b1",
-  storageBucket: "job-cv-manager-8b3b1.firebasestorage.app",
-  messagingSenderId: "896772162972",
-  appId: "1:896772162972:web:5178304384a31ba1d67459",
-  measurementId: "G-VY0V4TVT67"
+  apiKey: "AIzaSyAe_dC-197ptPwkYVn0Rcst6eYoHxHC2s4",
+  authDomain: "job-cv-manager-e3dcb.firebaseapp.com",
+  projectId: "job-cv-manager-e3dcb",
+  storageBucket: "job-cv-manager-e3dcb.firebasestorage.app",
+  messagingSenderId: "696086064375",
+  appId: "1:696086064375:web:5877755e26e2ec22f9f7f2",
+  measurementId: "G-N1QT7MSDL3"
 };
-
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
